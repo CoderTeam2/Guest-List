@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Guest List</title>
+</head>
+<body>
+    <h1>Guest List</h1>
+    <br><br>
+    <input type="text" placeholder="Name of the guest" id="g">
+    <button onclick="add_Guest()">Add Name</button><button onclick="remove()">Delete Whole List</button>
+    <br><br>
+    <hr>
+    <h2 id="guests"></h2>
+    <hr>
+    <br>
+    <button onclick="display()">Show list vertically</button><br><br>
+    <div id="vertical"></div>
+    <br><hr><br>
+    <button onclick="sort()">Sort List</button>
+    <br>
+    <div id="without_commas"></div>
+    <br><hr><br>
+    <input type="text" placeholder="Name of the guest" id="s">
+    <button onclick="search()">Search</button><br>
+    <h2 id="search_result"></h2>
+</body>
+</html>
